@@ -54,6 +54,11 @@ body.breadcrumb-fixed {
     white-space: nowrap;
 }
 
+.file-name-hover {
+    white-space: normal!important;
+    font-weight: bold;
+}
+
 .file-name i {
     color: #555;
 }
@@ -138,5 +143,4 @@ body.breadcrumb-fixed {
     .file-info-button {
         display: none !important;
     }
-
 }
