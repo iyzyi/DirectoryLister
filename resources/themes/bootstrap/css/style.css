@@ -48,15 +48,11 @@ body.breadcrumb-fixed {
     position: relative;
 }
 
+/* 下面的white-space改为nowrap则是文件名过长隐藏成省略号*/
 .file-name {
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.file-name-hover {
-    white-space: normal!important;
-    font-weight: bold;
+    white-space: normal;
 }
 
 .file-name i {

@@ -64,15 +64,3 @@ function showHideTopLink(elTop) {
         $('#page-top-nav').hide();
     }
 }
-
-$(function () {
-    var elementList = document.querySelectorAll("#directory-listing li");
-    for(let i = elementList.length-1; i >= 0 ; i--) {
-        elementList[i].onmouseover=function(){
-            elementList[i].getElementsByClassName("file-name")[0].classList.add("file-name-hover");
-        }
-        elementList[i].onmouseout=function(){
-            elementList[i].getElementsByClassName("file-name")[0].classList.remove("file-name-hover");
-        }
-    }
-});
