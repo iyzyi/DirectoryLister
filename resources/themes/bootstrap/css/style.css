@@ -53,6 +53,11 @@ body.breadcrumb-fixed {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
+    word-break:break-all;
+}
+
+.file-name-hover {
+    font-weight: bold;
 }
 
 .file-name i {
