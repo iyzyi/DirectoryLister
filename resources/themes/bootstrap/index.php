@@ -13,8 +13,8 @@
         <link rel="stylesheet" type="text/css" href="<?php echo THEMEPATH; ?>/css/style.css">
 
         <!-- SCRIPTS -->
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="//apps.bdimg.com/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="//libs.baidu.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php echo THEMEPATH; ?>/js/directorylister.js"></script>
 
         <!-- FONTS -->
@@ -86,9 +86,9 @@
 
             <div id="directory-list-header">
                 <div class="row">
-                    <div class="col-md-7 col-sm-6 col-xs-10">File</div>
-                    <div class="col-md-2 col-sm-2 col-xs-2 text-right">Size</div>
-                    <div class="col-md-3 col-sm-4 hidden-xs text-right">Last Modified</div>
+                    <div class="col-md-9 col-sm-9 col-xs-10">File</div>
+                    <div class="col-md-1 col-sm-1 col-xs-2 text-right">Size</div>
+                    <div class="col-md-2 col-sm-2 hidden-xs text-right">Last Modified</div>
                 </div>
             </div>
 
@@ -100,16 +100,16 @@
 
 
                             <div class="row">
-                                <span class="file-name col-md-7 col-sm-6 col-xs-9">
+                                <span class="file-name col-md-9 col-sm-9 col-xs-10">
                                     <i class="fa <?php echo $fileInfo['icon_class']; ?> fa-fw"></i>
                                     <?php echo $name; ?>
                                 </span>
 
-                                <span class="file-size col-md-2 col-sm-2 col-xs-3 text-right">
+                                <span class="file-size col-md-1 col-sm-1 col-xs-2 text-right">
                                     <?php echo $fileInfo['file_size']; ?>
                                 </span>
 
-                                <span class="file-modified col-md-3 col-sm-4 hidden-xs text-right">
+                                <span class="file-modified col-md-2 col-sm-2 hidden-xs text-right">
                                     <?php echo $fileInfo['mod_time']; ?>
                                 </span>
                             </div>
