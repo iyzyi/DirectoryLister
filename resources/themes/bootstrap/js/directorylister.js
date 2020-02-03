@@ -70,9 +70,13 @@ $(function () {
     for(let i = elementList.length-1; i >= 0 ; i--) {
         elementList[i].onmouseover=function(){
             elementList[i].getElementsByClassName("file-name")[0].classList.add("file-name-hover");
+            elementList[i].getElementsByClassName("file-size")[0].classList.add("file-size-hover");
+            elementList[i].getElementsByClassName("file-modified")[0].classList.add("file-modified-hover");
         }
         elementList[i].onmouseout=function(){
             elementList[i].getElementsByClassName("file-name")[0].classList.remove("file-name-hover");
+            elementList[i].getElementsByClassName("file-size")[0].classList.remove("file-size-hover");
+            elementList[i].getElementsByClassName("file-modified")[0].classList.remove("file-modified-hover");
         }
     }
 });

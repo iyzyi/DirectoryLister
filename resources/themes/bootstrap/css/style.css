@@ -56,7 +56,7 @@ body.breadcrumb-fixed {
     word-break:break-all;
 }
 
-.file-name-hover {
+.file-name-hover,.file-modified-hover,.file-size-hover {
     font-weight: bold;
 }
 

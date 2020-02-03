@@ -8,8 +8,8 @@
         <link rel="shortcut icon" href="<?php echo THEMEPATH; ?>/img/folder.png">
 
         <!-- STYLES -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//libs.baidu.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//apps.bdimg.com/libs/fontawesome/4.2.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo THEMEPATH; ?>/css/style.css">
 
         <!-- SCRIPTS -->
@@ -86,9 +86,9 @@
 
             <div id="directory-list-header">
                 <div class="row">
-                    <div class="col-md-9 col-sm-9 col-xs-10">File</div>
+                    <div class="col-md-8 col-sm-9 col-xs-10">File</div>
                     <div class="col-md-1 col-sm-1 col-xs-2 text-right">Size</div>
-                    <div class="col-md-2 col-sm-2 hidden-xs text-right">Last Modified</div>
+                    <div class="col-md-3 col-sm-2 hidden-xs text-right">Last Modified</div>
                 </div>
             </div>
 
@@ -100,7 +100,7 @@
 
 
                             <div class="row">
-                                <span class="file-name col-md-9 col-sm-9 col-xs-10">
+                                <span class="file-name col-md-8 col-sm-9 col-xs-10">
                                     <i class="fa <?php echo $fileInfo['icon_class']; ?> fa-fw"></i>
                                     <?php echo $name; ?>
                                 </span>
@@ -109,7 +109,7 @@
                                     <?php echo $fileInfo['file_size']; ?>
                                 </span>
 
-                                <span class="file-modified col-md-2 col-sm-2 hidden-xs text-right">
+                                <span class="file-modified col-md-3 col-sm-2 hidden-xs text-right">
                                     <?php echo $fileInfo['mod_time']; ?>
                                 </span>
                             </div>
